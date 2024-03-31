@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from streamlit_option_menu import option_menu
 from PIL import Image
 import google.generativeai as genai
-
 load_dotenv()
 os.environ.get('GOOGLE_API_KEY')
 genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
